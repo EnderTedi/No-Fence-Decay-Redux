@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <EnableHarmony>true</EnableHarmony>
+        <LangVersion>latest</LangVersion>
+        <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    </PropertyGroup>
+    
+    <!-- Mod Info -->
+    <PropertyGroup>
+        <Name>Fence Tuner</Name>
+        <Version>2.0.0</Version>
+        <Authors>EnderTedi</Authors>
+        <UniqueID>EnderTedi.FenceTuner</UniqueID>
+        <UpdateKeys>Nexus:20802</UpdateKeys>
+        <MinimumGameVersion>1.6.0</MinimumGameVersion>
+        <MInimumApiVersion>4.0.0</MInimumApiVersion>
+    </PropertyGroup>
+    
+    <!-- Mod Zip Info -->
+    <PropertyGroup>
+        <ModFolderName>$(Name)</ModFolderName>
+        <EnableModDeploy>false</EnableModDeploy>
+        <ModZipPath>/home/theodore/Documents/Modding/ModZips/</ModZipPath>
+    </PropertyGroup>
+    
+    <!-- Extra Rider Info -->
+    <PropertyGroup Condition="'$(OS)'=='Unix'">
+        <GamePath>/home/theodore/.local/share/Steam/steamapps/common/Stardew Valley/</GamePath>
+        <StartAction>Program</StartAction>
+        <StartProgram>$(GamePath)/StardewModdingAPI</StartProgram>
+        <StartWorkingDirectory>$(GamePath)</StartWorkingDirectory>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="JetBrains.Annotations" Version="2025.2.4" />
+        <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.1"/>
+        <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0"/>
+        <PackageReference Include="Pathoschild.Stardew.ModTranslationClassBuilder" Version="2.2.1"/>
+    </ItemGroup>
+
+</Project>
