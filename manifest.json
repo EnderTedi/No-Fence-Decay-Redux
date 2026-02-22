@@ -10,7 +10,7 @@
   "UniqueID": "EnderTedi.FenceTuner",
   "Name": "Fence Tuner",
   "Author": "EnderTedi",
-  "Version": "2.0.0-Debug",
+  "Version": "2.0.0",
   "Description": "Stops Fence Decay From Occuring",
   "MinimumApiVersion": "4.0.0",
   "MinimumGameVersion": "1.6.0",

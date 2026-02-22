@@ -24,7 +24,7 @@
     <PropertyGroup>
         <ModFolderName>$(Name)</ModFolderName>
         <EnableModDeploy>false</EnableModDeploy>
-        <ModZipPath>/home/theodore/Documents/Modding/ModZips/</ModZipPath>
+        <ModZipPath>/home/theodore/Documents/Modding/ModZips/$(Name)</ModZipPath>
     </PropertyGroup>
     
     <!-- Extra Rider Info -->
