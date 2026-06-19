@@ -32,7 +32,7 @@ public static class FenceTweaks
 
     public static void GetAmount(Fence f, int minutesElapsed)
     {
-        PerFenceConfig? thisConfig = FenceTuner.GetPerFenceConfig(f.ItemId);
+        PerFenceConfig thisConfig = FenceTuner.GetPerFenceConfig(f.ItemId);
 
         if (thisConfig is { IgnoreGlobal: true, ShouldDecay: true })
             f.health.Value -= (float)minutesElapsed / 1440 * thisConfig.DecaySpeed;

@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <EnableHarmony>true</EnableHarmony>
-        <LangVersion>latest</LangVersion>
+        <LangVersion>14.0</LangVersion>
         <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     </PropertyGroup>
     
@@ -40,6 +40,10 @@
         <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.1"/>
         <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0"/>
         <PackageReference Include="Pathoschild.Stardew.ModTranslationClassBuilder" Version="2.2.1"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Content Include=".github\workflows\build.yaml" />
     </ItemGroup>
 
 </Project>
