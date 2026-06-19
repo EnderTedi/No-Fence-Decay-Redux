@@ -20,15 +20,8 @@
         <MInimumApiVersion>4.0.0</MInimumApiVersion>
     </PropertyGroup>
     
-    <!-- Mod Zip Info -->
-    <PropertyGroup>
-        <ModFolderName>$(Name)</ModFolderName>
-        <EnableModDeploy>false</EnableModDeploy>
-        <ModZipPath>/home/theodore/Documents/Modding/ModZips/$(Name)</ModZipPath>
-    </PropertyGroup>
-    
     <!-- Extra Rider Info -->
-    <PropertyGroup Condition="'$(OS)'=='Unix'">
+    <PropertyGroup>
         <GamePath>/home/theodore/.local/share/Steam/steamapps/common/Stardew Valley/</GamePath>
         <StartAction>Program</StartAction>
         <StartProgram>$(GamePath)/StardewModdingAPI</StartProgram>
