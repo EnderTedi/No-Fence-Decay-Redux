@@ -16,6 +16,8 @@ jobs:
 
       - name: Add build environment
         uses: Pathoschild/SMAPI-ModBuildWorkflow/add-build-environment@v1
+        with:
+          dotnet_version: '10.0.x'
 
       - name: Set prerelease versions
         uses: Pathoschild/SMAPI-ModBuildWorkflow/set-prerelease-versions@v1
