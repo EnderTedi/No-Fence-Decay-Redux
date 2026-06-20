@@ -1,0 +1,18 @@
+{
+  "config.global-should-decay.name": "Global Should Decay",
+  "config.global-should-decay.description": "Disables Decay globally, meaning all fences will never decay.\nThis also repairs all existing fences.",
+  "config.global-decay-speed.name": "Global Decay Speed",
+  "config.global-decay-speed.description": "The speed at which all fences decay compared to vanilla.\nThe higher the value, the faster they decay, and vice versa.\n1.0 is unchanged/vanilla.",
+  "config.global-remove-variation.name": "Global Remove Variation",
+  "config.global-remove-variation.description": "By default, all fences gain approximately +/-100 health points of variation off their base health when placed and repaired.\nThis option removes that variation, making all fences of the same type last the same amount of days.",
+  "config.per-fence-config.name": "Settings Per Fence Type",
+  "config.per-fence-config.description": "Settings per fence type, so that you can further customize each type.",
+  "config.ignore-global.name": "Ignore Global",
+  "config.ignore-global.description": "Ignore the global settings for this fence type.",
+  "config.should-decay.name": "Should Decay",
+  "config.should-decay.description": "Disables Decay, meaning this fence will never decay.\nThis also repairs existing fences of this type.",
+  "config.decay-speed.name": "Decay Speed",
+  "config.decay-speed.description": "The speed at which this type of fence decays compared to vanilla.\nThe higher the value, the faster they decay, and vice versa.\n1.0 is unchanged/vanilla.",
+  "config.remove-variation.name": "Remove Variation",
+  "config.remove-variation.description": "By default, all fences gain approximately +/-100 health points of variation off their base health when placed and repaired.\nThis option removes that variation, making all fences of this type last the same amount of days."
+}

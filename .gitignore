@@ -2,3 +2,6 @@
 /.vs
 /bin
 /obj
+/.idea
+/Properties
+FenceTuner.sln.DotSettings.user

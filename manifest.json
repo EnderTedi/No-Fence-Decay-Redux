@@ -7,14 +7,14 @@
    | 
    */
   "$schema": "https://smapi.io/schemas/manifest.json",
-  "UniqueID": "EnderTedi.NoFenceDecayRedux",
-  "Name": "No Fence Decay Redux",
+  "UniqueID": "EnderTedi.FenceTuner",
+  "Name": "Fence Tuner",
   "Author": "EnderTedi",
-  "Version": "1.2.0",
+  "Version": "2.0.0",
   "Description": "Stops Fence Decay From Occuring",
   "MinimumApiVersion": "4.0.0",
   "MinimumGameVersion": "1.6.0",
-  "EntryDll": "No Fence Decay - Redux.dll",
+  "EntryDll": "FenceTuner.dll",
   "UpdateKeys": [
     "Nexus:20802"
   ]
